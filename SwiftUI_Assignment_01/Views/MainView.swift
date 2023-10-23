@@ -36,26 +36,12 @@ struct MainView: View {
                     .padding(.horizontal, 30)
                     .foregroundColor(.gray)
                 
-                Button(action: {
+                MainButton(title: "Login", isFilled: true){
                     
-                }){
-                    Text("Login")
-                        .frame(width: 250, height: 50)
-                        .background(Color("primaryAppColor"))
-                        .foregroundColor(.white)
                 }
-                .cornerRadius(32)
                 .padding(.bottom, 8)
-                Button(action: {
-                    
-                }){
-                    Text("Sign up")
-                        .frame(width: 250, height: 50)
-                        .foregroundColor(Color("primaryAppColor"))
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 32)
-                                .stroke(Color("primaryAppColor"), lineWidth: 1)
-                        )
+                
+                MainButton(title: "Sign up", isFilled: false){
                     
                 }
             }//: VStack1

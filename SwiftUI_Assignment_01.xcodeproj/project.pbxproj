@@ -15,6 +15,7 @@
 		685163122AE61CE400541EB0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685163112AE61CE400541EB0 /* OnboardingView.swift */; };
 		685163152AE61DAF00541EB0 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685163142AE61DAF00541EB0 /* OnboardingPage.swift */; };
 		685163182AE62DB300541EB0 /* BottonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685163172AE62DB300541EB0 /* BottonCard.swift */; };
+		6851631B2AE643BD00541EB0 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6851631A2AE643BD00541EB0 /* MainButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		685163112AE61CE400541EB0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		685163142AE61DAF00541EB0 /* OnboardingPage.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
 		685163172AE62DB300541EB0 /* BottonCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottonCard.swift; sourceTree = "<group>"; };
+		6851631A2AE643BD00541EB0 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		6851630C2AE56C1D00541EB0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				685163192AE6437F00541EB0 /* GlobalComponents */,
 				6851630F2AE61CA800541EB0 /* Onborading */,
 				685163002AE564CD00541EB0 /* SplashScreenView.swift */,
 				6851630D2AE5793E00541EB0 /* MainView.swift */,
@@ -101,6 +104,14 @@
 				685163172AE62DB300541EB0 /* BottonCard.swift */,
 			);
 			path = Componenmts;
+			sourceTree = "<group>";
+		};
+		685163192AE6437F00541EB0 /* GlobalComponents */ = {
+			isa = PBXGroup;
+			children = (
+				6851631A2AE643BD00541EB0 /* MainButton.swift */,
+			);
+			path = GlobalComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				685163012AE564CD00541EB0 /* SplashScreenView.swift in Sources */,
 				6851630E2AE5793E00541EB0 /* MainView.swift in Sources */,
 				685163182AE62DB300541EB0 /* BottonCard.swift in Sources */,
+				6851631B2AE643BD00541EB0 /* MainButton.swift in Sources */,
 				685162FF2AE564CD00541EB0 /* SwiftUI_Assignment_01App.swift in Sources */,
 				685163152AE61DAF00541EB0 /* OnboardingPage.swift in Sources */,
 			);
